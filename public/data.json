@@ -37,11 +37,13 @@
     "what_therapies_are_used_for_high_blood_pressure": "High blood pressure can be managed with acupuncture, herbal medicine, and lifestyle modifications to support cardiovascular health.",
     "how_is_sound_healing_beneficial": "Sound healing promotes relaxation and stress reduction by using sound frequencies to support the body's natural healing processes.",
     "what_is_guasha_and_how_does_it_help": "Gua Sha is a traditional Chinese therapy that involves scraping the skin to improve circulation and reduce inflammation, which can aid in pain relief and overall wellness.",
-    "what_are_the_benefits_of_tcm_for_skin_conditions": "Traditional Chinese Medicine (TCM) can benefit skin conditions like acne, eczema, and dermatitis through herbal treatments and acupuncture to address underlying imbalances."
+    "what_are_the_benefits_of_tcm_for_skin_conditions": "Traditional Chinese Medicine (TCM) can benefit skin conditions like acne, eczema, and dermatitis through herbal treatments and acupuncture to address underlying imbalances.",
+    "hours_of_operation": "We're available 24/7 to assist you with any inquiries.",
+    "contact_information": "You can reach us at jose@visuallinkit.com or call us at +61 410 699 065 ."
   },
   "faq": {
     "hours_of_operation": "We're available 24/7 to assist you with any inquiries.",
-    "contact_information": "You can reach us at support@example.com or call us at (123) 456-7890."
+    "contact_information": "You can reach us at jose@visuallinkit.com or call us at +61 410 699 065 ."
   },
   "fallback": "I'm sorry, I didn't understand that. Can you please rephrase?"
 }

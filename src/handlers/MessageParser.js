@@ -67,7 +67,9 @@ class MessageParser {
       this.actionProvider.handleBasicQuestions(message);
     } else if (lowerCaseMessage.includes("what are the benefits of tcm for skin conditions")) {
       this.actionProvider.handleBasicQuestions(message);
-    }
+    } else if (lowerCaseMessage.includes("contact information")) {
+    this.actionProvider.handleBasicQuestions(message);
+  }
 
     // Handle symptom checker (if implemented)
     if (lowerCaseMessage.includes("symptom")) {

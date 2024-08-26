@@ -85,6 +85,8 @@ class ActionProvider {
         response = data.responses.what_is_guasha_and_how_does_it_help;
       } else if (message.includes("what are the benefits of tcm for skin conditions")) {
         response = data.responses.what_are_the_benefits_of_tcm_for_skin_conditions;
+      } else if (message.includes("contact information")) {
+        response = data.responses.contact_information;
       } else {
         response = data.responses.fallback;
       }
@@ -112,7 +114,7 @@ class ActionProvider {
     console.log('handleBookingQuestions method called with message:', message);
 
     const bookingMessage = this.createChatBotMessage(
-      "To book an appointment, please visit [this link](https://example.com/book-appointment). If you need further assistance, feel free to ask!"
+      "To book an appointment, please visit (https://www.rainbowmedicine.com.au/en/booking-services). If you need further assistance, feel free to ask!"
     );
     
     this.setState((prev) => ({

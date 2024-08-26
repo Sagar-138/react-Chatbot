@@ -6,6 +6,7 @@ import config from './config/config';
 import MessageParser from './handlers/MessageParser';
 import ActionProvider from './handlers/ActionProvider';
 import './App.css';
+// import "./customStyle.css"
 
 function App() {
   const [showChat, setShowChat] = useState(false);
