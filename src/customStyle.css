@@ -1,0 +1,186 @@
+.react-chatbot-kit-chat-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .react-chatbot-kit-chat-inner-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .react-chatbot-kit-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .react-chatbot-kit-chat-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .react-chatbot-kit-chat-message-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 16px;
+  }
+  
+  .react-chatbot-kit-chat-input {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 16px;
+    flex: 1;
+    margin-right: 8px;
+  }
+  
+  .react-chatbot-kit-chat-input-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .react-chatbot-kit-chat-input::placeholder {
+    color: #999;
+  }
+  
+  .react-chatbot-kit-chat-btn-send {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .react-chatbot-kit-chat-btn-send-icon {
+    font-size: 16px;
+  }
+  
+  .react-chatbot-kit-chat-bot-message-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .react-chatbot-kit-chat-bot-avatar-container {
+    margin-right: 8px;
+  }
+  
+  .react-chatbot-kit-chat-bot-avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/logo192.png'); /* Update this path to your icon */
+    background-size: cover; /* Adjust the size of the icon */
+    background-position: center; /* Center the icon within the circle */
+    border: 2px solid #ddd; /* Optional: border to define the avatar shape */
+  }
+  
+  /* Remove or adjust this if no longer needed */
+  .react-chatbot-kit-chat-bot-avatar-letter {
+    display: none;
+  }
+  
+  .react-chatbot-kit-chat-bot-message {
+    background-color: #e9ecef;
+    padding: 8px 16px;
+    border-radius: 8px;
+    max-width: 300px;
+    word-break: break-word;
+  }
+  
+  .react-chatbot-kit-chat-bot-message-arrow {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 8px 8px 0 0;
+    border-color: #e9ecef transparent transparent transparent;
+  }
+  
+  .react-chatbot-kit-chat-bot-loading-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .chatbot-loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #chatbot-loader #chatbot-loader-dot1,
+  #chatbot-loader #chatbot-loader-dot2,
+  #chatbot-loader #chatbot-loader-dot3 {
+    background-color: #007bff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 4px;
+    animation: chatbot-loader 1s infinite;
+  }
+  
+  #chatbot-loader #chatbot-loader-dot1 {
+    animation-delay: 0.2s;
+  }
+  
+  #chatbot-loader #chatbot-loader-dot2 {
+    animation-delay: 0.4s;
+  }
+  
+  #chatbot-loader #chatbot-loader-dot3 {
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes chatbot-loader {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .react-chatbot-kit-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .react-chatbot-kit-error-container {
+    margin-top: 16px;
+  }
+  
+  .react-chatbot-kit-error-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .react-chatbot-kit-error-docs {
+    margin-top: 8px;
+  }
