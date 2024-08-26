@@ -1,0 +1,17 @@
+{
+  "greetings": [
+    "Hello! How can I help you today?",
+    "Hi there! What can I do for you?",
+    "Greetings! How can I assist you?"
+  ],
+  "responses": {
+    "how_are_you": "I'm just a bot, but I'm doing great! How about you?",
+    "what_is_your_name": "I'm HealthBot, your friendly assistant.",
+    "thank_you": "You're welcome! If you have any more questions, feel free to ask."
+  },
+  "faq": {
+    "hours_of_operation": "We're available 24/7 to assist you with any inquiries.",
+    "contact_information": "You can reach us at support@example.com or call us at (123) 456-7890."
+  },
+  "fallback": "I'm sorry, I didn't understand that. Can you please rephrase?"
+}
